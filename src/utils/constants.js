@@ -3,7 +3,7 @@ export const THEMES = {
   DARK: "dark",
 };
 
-export const DEFAULT_ONYX_DOMAIN = "http://localhost:3000";
+export const DEFAULT_ONYX_DOMAIN = "https://gpt.artechfact.fr";
 
 // Keyboard shortcuts
 export const KEYBOARD_SHORTCUTS = {

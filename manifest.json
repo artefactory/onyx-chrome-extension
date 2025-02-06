@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Onyx Extension",
+  "name": "PrivateGPT Extension",
   "version": "1.0",
-  "description": "Onyx integration for Chrome",
+  "description": "PrivateGPT integration for Chrome",
   "permissions": [
     "sidePanel",
     "storage",
@@ -11,7 +11,9 @@
     "tabs",
     "cookies"
   ],
-  "host_permissions": ["https://cloud.onyx.app/*"],
+  "host_permissions": [
+    "https://gpt.artechfact.fr/*"
+  ],
   "background": {
     "service_worker": "service_worker.js",
     "type": "module"
@@ -38,7 +40,7 @@
         "default": "Ctrl+Shift+O",
         "mac": "Command+Shift+O"
       },
-      "description": "Toggle Onyx New Tab Override"
+      "description": "Toggle PrivateGPT New Tab Override"
     }
   },
   "side_panel": {
